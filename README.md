@@ -41,5 +41,11 @@ pipe flow - Flow of rainfall through gravity driven storm drain pipes.  No press
     
 4. Calculations 
   * Allow each basin to contain multiple sub-basins.
-  * Perform T<sub>c</sub> calculations IAW TR-55 for both overland flow and gutter flow
+  * Perform T<sub>c</sub> calculations
   * Allow the user to enter a fixed runoff coefficient value or calculate a composite runoff coefficient value
+  * Allow the user to select the design storm frequency for storage and conveyance.  There is a case where the maximum storm volume is to be used.  Allow for the user to select "max" and present a calculated runoff table
+  * Allow the user to select whether the design requires water quality.  Change to match
+  * Allow the user to select from seepage trench, swale, temporary pond, and permanent pond for discharge points.  Change the geometry calculations to match
+  * Allow the user to determine the percolation/exfiltration rates
+  
+5. Present results to the user. The format does not need to be the same as that printed/published.
